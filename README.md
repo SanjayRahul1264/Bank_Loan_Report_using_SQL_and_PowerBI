@@ -19,6 +19,7 @@ Tools & Technologies:
 
 Thank You #swapnjeet555 & his channel #DataTutorials for sharing your knowledgeâ€¦
 
+
 **PROBLEM STATEMENT**
 
 **DASHBOARD 1: SUMMARY**
@@ -26,6 +27,7 @@ Thank You #swapnjeet555 & his channel #DataTutorials for sharing your knowledgeâ
 "In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
  
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Summary.png)
+
 
 
 **Key Performance Indicators (KPIs) Requirements:**
@@ -40,9 +42,11 @@ Thank You #swapnjeet555 & his channel #DataTutorials for sharing your knowledgeâ
 
 5.	Average Debt-to-Income Ratio (DTI): Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
 
+
 **Good Loan v Bad Loan KPIâ€™s**
 
 In order to evaluate the performance of our lending activities and assess the quality of our loan portfolio, we need to create a comprehensive report that distinguishes between 'Good Loans' and 'Bad Loans' based on specific loan status criteria
+
 
 **Good Loan KPIs:**
 
@@ -54,6 +58,7 @@ In order to evaluate the performance of our lending activities and assess the qu
 
 4.	Good Loan Total Received Amount: Tracking the total amount received from borrowers for 'Good Loans,' which encompasses all payments made on loans with a loan status of 'Fully Paid' and 'Current.'
 
+
 **Bad Loan KPIs:**
 
 1.	Bad Loan Application Percentage: Calculating the percentage of loan applications categorized as 'Bad Loans.' This category specifically includes loans with a loan status of 'Charged Off.'
@@ -64,9 +69,11 @@ In order to evaluate the performance of our lending activities and assess the qu
 
 4.	Bad Loan Total Received Amount: Tracking the total amount received from borrowers for 'Bad Loans,' which includes all payments made on loans with a loan status of 'Charged Off.'
 
+
 **Loan Status Grid View**
 
 To gain a comprehensive overview of our lending operations and monitor the performance of loans, we aim to create a grid view report categorized by 'Loan Status.' This report will serve as a valuable tool for analysing and understanding the key indicators associated with different loan statuses. By providing insights into metrics such as 'Total Loan Applications,' 'Total Funded Amount,' 'Total Amount Received,' 'Month-to-Date (MTD) Funded Amount,' 'MTD Amount Received,' 'Average Interest Rate,' and 'Average Debt-to-Income Ratio (DTI),' this grid view will empower us to make data-driven decisions and assess the health of our loan portfolio.
+
 
 **DASHBOARD 2: OVERVIEW**
 
@@ -74,8 +81,8 @@ In our Bank Loan Report project, we aim to visually represent critical loan-rela
 
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Overview.png)
 
-**1. Monthly Trends by Issue Date (Line Chart):**
 
+**1. Monthly Trends by Issue Date (Line Chart):**
 
 **Chart Type:** Line Chart
 
@@ -88,6 +95,7 @@ In our Bank Loan Report project, we aim to visually represent critical loan-rela
 **Objective**: This line chart will showcase how 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received' vary over time, allowing us to 
 identify seasonality and long-term trends in lending activities.
 
+
 **2. Regional Analysis by State (Tree Map):**
 
 **Chart Type:** Filled Map
@@ -99,6 +107,7 @@ identify seasonality and long-term trends in lending activities.
 **Objective:** This filled map will visually represent lending metrics categorized by state, enabling us to identify regions with significant lending activity and 
 assess regional disparities.
 
+
 **3. Loan Term Analysis (Donut Chart):**
 
 **Chart Type:** Donut Chart
@@ -108,6 +117,7 @@ assess regional disparities.
 **Segments:** Loan Terms (e.g., 36 months, 60 months)
 
 **Objective:** This donut chart will depict loan statistics based on different loan terms, allowing us to understand the distribution of loans across various term lengths.
+
 
 **4. Employee Length Analysis (Bar Chart):**
 
@@ -120,6 +130,7 @@ assess regional disparities.
 **Y-Axis:** Metrics' Values
 
 **Objective:** This bar chart will illustrate how lending metrics are distributed among borrowers with different employment lengths, helping us assess the impact of employment history on loan applications.
+
 
 **5. Loan Purpose Breakdown (Bar Chart):**
 
@@ -152,6 +163,7 @@ These diverse chart types will enhance our ability to visualize and communicate 
 
 In our Bank Loan Report project, we recognize the need for a comprehensive 'Details Dashboard' that provides a consolidated view of all the essential information within our loan data. This Details Dashboard aims to offer a holistic snapshot of key loan-related metrics and data points, enabling users to access critical information efficiently.
 
+
 **Objective:**
 
 The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
@@ -159,7 +171,9 @@ The primary objective of the Details Dashboard is to provide a comprehensive and
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Details.png)
 
 
+
 **Conclusions/ Insights from this Dashboard Report:**
+
 
 **1. Strong Growth and Momentum**
 
@@ -173,11 +187,13 @@ Total Loan Applications are up 6.91% MoM, showing increasing demand.
 
 Loan Volume Growth: The Total Fund Amount by Month chart shows continuous, aggressive growth, peaking at $48M in December (from a low of $25M in February), indicating a successful expansion strategy.
 
+
 **2. Significant Credit Risk**
 
 **Bad Loan Rate:** The Bad Loan Issued rate is 13.8% (5.3K applications, $65.5M funded), which is a high percentage for the portfolio. This indicates a substantial portion of loans are likely to default.
 
 **Charged Off Status:** Loans currently Charged Off (defaults) account for a Total Loan Amount of $6.55 Billion and a large application count of 5,333, matching the volume of current "Bad Loans Issued." This confirms the high risk shown in the current bad loan rate is materializing into actual losses.
+
 
 **3. Portfolio Distribution and Concentration**
 
@@ -188,6 +204,7 @@ Loan Volume Growth: The Total Fund Amount by Month chart shows continuous, aggre
 **Home Ownership Exposure:** Loans for borrowers with MORTGAGE ($219.3M) and RENT ($185.8M) status are the two biggest segments, with a smaller gap between them than other categories.
 
 **Employee Tenure:** Borrowers with 10+ years of employment are the source of the largest fund amount ($116M), suggesting reliance on an older, more established, but potentially risk-averse, segment.
+
 
 **Actionable Outcomes**
 
