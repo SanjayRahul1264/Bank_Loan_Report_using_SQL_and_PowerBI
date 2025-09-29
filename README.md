@@ -7,6 +7,7 @@
 To build a dynamic, interactive dashboard that consolidates financial data from various sources, providing actionable insights for decision-making.
 Tools & Technologies:
 
+
 **SQL:** For data extraction and querying from databases.
 
 **Excel:** For initial data analysis and manipulation.
