@@ -3,6 +3,7 @@
 **Project Overview:**
 
 **Objective:**
+
 To build a dynamic, interactive dashboard that consolidates financial data from various sources, providing actionable insights for decision-making.
 Tools & Technologies:
 
@@ -21,6 +22,7 @@ Thank You #swapnjeet555 & his channel #DataTutorials for sharing your knowledgeâ
 **PROBLEM STATEMENT**
 
 **DASHBOARD 1: SUMMARY**
+
 "In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
  
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Summary.png)
@@ -73,57 +75,94 @@ In our Bank Loan Report project, we aim to visually represent critical loan-rela
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Overview.png)
 
 **1. Monthly Trends by Issue Date (Line Chart):**
+
+
 **Chart Type:** Line Chart
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **X-Axis:** Month (based on 'Issue Date')
+
 **Y-Axis:** Metrics' Values
-**Objective**: This line chart will showcase how 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received' vary over time, allowing us to identify seasonality and long-term trends in lending activities.
+
+**Objective**: This line chart will showcase how 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received' vary over time, allowing us to 
+identify seasonality and long-term trends in lending activities.
 
 **2. Regional Analysis by State (Tree Map):**
+
 **Chart Type:** Filled Map
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **Geographic Regions:** States
-**Objective:** This filled map will visually represent lending metrics categorized by state, enabling us to identify regions with significant lending activity and assess regional disparities.
+
+**Objective:** This filled map will visually represent lending metrics categorized by state, enabling us to identify regions with significant lending activity and 
+assess regional disparities.
 
 **3. Loan Term Analysis (Donut Chart):**
+
 **Chart Type:** Donut Chart
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **Segments:** Loan Terms (e.g., 36 months, 60 months)
+
 **Objective:** This donut chart will depict loan statistics based on different loan terms, allowing us to understand the distribution of loans across various term lengths.
 
 **4. Employee Length Analysis (Bar Chart):**
+
 **Chart Type:** Bar Chart
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **X-Axis:** Employee Length Categories (e.g., 1 year, 5 years, 10+ years)
+
 **Y-Axis:** Metrics' Values
+
 **Objective:** This bar chart will illustrate how lending metrics are distributed among borrowers with different employment lengths, helping us assess the impact of employment history on loan applications.
 
 **5. Loan Purpose Breakdown (Bar Chart):**
+
 **Chart Type:** Bar Chart
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **X-Axis:** Loan Purpose Categories (e.g., debt consolidation, credit card refinancing)
+
 **Y-Axis:** Metrics' Values
+
 **Objective:** This bar chart will provide a visual breakdown of loan metrics based on the stated purposes of loans, aiding in the understanding of the primary reasons borrowers seek financing.
 
+
 **6. Home Ownership Analysis (Tree Map):**
+
 **Chart Type:** Tree Map
+
 **Metrics:** 'Total Loan Applications,' 'Total Funded Amount,' and 'Total Amount Received'
+
 **Hierarchy:** Home Ownership Categories (e.g., own, rent, mortgage)
-**Objective:** This tree map will display loan metrics categorized by different home ownership statuses, allowing for a hierarchical view of how home ownership impacts loan applications and disbursements.
+
+**Objective:** This tree map will display loan metrics categorized by different home ownership statuses, allowing for a hierarchical view of how home ownership 
+impacts loan applications and disbursements.
+
 These diverse chart types will enhance our ability to visualize and communicate loan-related insights effectively, supporting data-driven decisions and strategic planning within our lending operations."
 
 
 **DASHBOARD 3: DETAILS**
+
 In our Bank Loan Report project, we recognize the need for a comprehensive 'Details Dashboard' that provides a consolidated view of all the essential information within our loan data. This Details Dashboard aims to offer a holistic snapshot of key loan-related metrics and data points, enabling users to access critical information efficiently.
 
 **Objective:**
+
 The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
 
 ![Image Alt](https://github.com/SanjayRahul1264/Bank_Loan_Report_using_SQL_and_PowerBI/blob/452cfa26dad99cbb6b366a1fcd906be2aeab2d02/Dashboard%20Snapshots/Details.png)
 
 
 **Conclusions/ Insights from this Dashboard Report:**
+
 **1. Strong Growth and Momentum**
+
 Positive Financial Trend: All key financial metrics show strong Month-over-Month (MoM) growth:
 
 Total Fund Amount (Loans Disbursed) is up 13.0% MoM.
