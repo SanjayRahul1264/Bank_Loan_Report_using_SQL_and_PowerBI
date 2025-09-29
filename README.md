@@ -1,1 +1,1 @@
-# Bank_Loan_Report_using_SQL_-_PowerBI
+# Bank Loan Report using SQL & PowerBI
